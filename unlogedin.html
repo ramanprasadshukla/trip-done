@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="th.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Book Done</title>
+</head>
+<body>
+    <div class="logo">
+        <h1 style="font-family:verdana">Book Done</h1>
+        <div class="login">
+            <a href="login.html">login or account</a>
+        </div>
+    </div>
+    <div class="search" id="search">
+        <div class="search_2">
+            <div class="inputs">
+                <lable>CITY,AREA,PROPERTY</lable>
+                <input id="search-location" type="text" placeholder="Location">
+            </div>
+            <div class="inputs">
+                <lable>CHECK-IN</lable>
+                <input type="date" placeholder="inter the check-in date">
+            </div>
+            <div class="inputs">
+                <lable>CHECK-OUT</lable>
+                <input type="date" placeholder="inter the check-out date">
+            </div>   
+            <div class="inputs">
+                <lable>Price</lable>
+                <input type="number" id="max-price" placeholder="Max Price ($)">
+            </div>  
+            <div class="inputs">
+                <lable>ROOMS</lable>
+                <!-- <button id="chooseBtn">No. of Rooms<i class="fa-solid fa-angles-down"></i></button> -->
+                    <input id="min-bedrooms" type="number" placeholder="Min Bedrooms">
+                    <!-- <input id="no" type="number" placeholder="Adults">
+                    <input id="no" type="number" placeholder="Children"> -->
+                    <!-- <button id="apply">apply</button> -->
+            </div>   
+        </div>
+        <div class="btn">
+            <button class="mainBtn" id="search-button">Search</button>
+        </div>
+        </div>
+        
+        <div>
+            <button id="addRoom">Add Room</button>
+        </div>
+        <div id="addRooms">
+            <h2>Add Room Listing</h2>
+        <form id="room-form">
+            <input id="inp1" type="text" id="location" placeholder="Location" required>
+            <input id="inp1" type="date" id="date" placeholder="check-in date" required>
+            <input id="inp1" type="date" id="date" placeholder="check-out date" required>
+            <input id="inp1" type="number" id="price" placeholder="Price (₹)" required>
+            <input id="inp1" type="number" id="bedrooms" placeholder="Number of Bedrooms" required>
+            <textarea id="description" placeholder="Description" required></textarea>
+            <button id="submit" type="submit">Add Room</button>
+        </form>
+        </div>
+        
+        <div id="rooms">
+            <div class="fBlock">
+                <div class="containers" style="background-image: url();"><div id="room-list"></div></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+            </div>
+            <div class="fBlock">
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+                <div class="containers" style="background-image: url();"></div>
+            </div>
+        </div>
+
+
+        <script src="td.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(217, 227, 89);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainCont{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    width: 600px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#inp1, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.room {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#addRooms{
+    display: none;
+}
+
+#addRoom{
+    margin-left: 1400px;
+    z-index: 3;
+}
+
+input, button{
+    width: 300px;
+    margin-top: 10px;
+}
+
+#a{
+
+    display: flex;
+    justify-content: center;
+}

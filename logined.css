@@ -1,0 +1,173 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+#inp1, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.room {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+#addRooms{
+    display: none;
+}
+
+#addRoom{
+    margin-left: 1400px;
+    z-index: 3;
+}
+
+body{
+    background-color: rgb(217, 227, 89);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color: aqua;
+    font-size:20px;
+    margin-left: 90%;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(71, 20, 20);
+    justify-content: baseline;
+}
+.search_2{
+    width: 820px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(217, 227, 89);
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 50px;
+}
+
+.inputs{
+    height: 40px;
+    width: 200px;
+    background-color: rgb(9, 22, 34);
+    color: aliceblue;
+    z-index: 2;
+}
+
+input{
+    background-color: rgb(9, 22, 34);
+    color: white;
+    background-color: rgb(43, 114, 114);
+    width: 163px;
+}
+
+.mainBtn{
+    height: 40px;
+    width: 120px;
+    font-size: larger;
+    margin-right: 10px;
+}
+
+#chooseBtn{
+    width: 100%;
+}
+
+/* #selector{
+    color: black;
+    width: 100px;
+    z-index: 1;
+} */
+
+#no, #apply, #min-bedrooms{
+    width: 100%;
+    height: 30px;
+    font-size: larger;
+}
+
+.fBlock{
+    width: 1400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.containers{
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 20px;
+    border: 3px solid black;
+    padding-bottom: 0%;
+}
+
+#min-bedrooms{
+    font-size: medium;
+    height: 16px;
+}
+
+.lable-room{
+    background-color: white;
+    height: 20%;
+    margin-top: 79%;
+    border-top: 3px solid black;
+}
+
